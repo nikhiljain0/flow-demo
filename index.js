@@ -14,6 +14,8 @@ app.get('/', function(request, response) {
     var envName = 'staging'
   } else if (env == 'production') {
     var envName = 'production'
+  }else if (env == 'development') {
+    var envName = 'development'
   } else {
     var envName = 'review app'
   }
